@@ -36,6 +36,5 @@ cd ToDo_List_PHP
 ## Captures d'écran
 
 <p align="center">
-  <img src="Capture1.png" alt="Capture d'écran 1" width="1000"/>
   <img src="Capture2.png" alt="Capture d'écran 2" width="1000"/>
 </p>
