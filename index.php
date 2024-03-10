@@ -15,6 +15,8 @@ if ($conn->connect_error) {
 // Ajouter une tâche
 if (isset($_POST['addTask'])) {
     $task = $_POST['task'];
+    // Pour les caractères speciaux
+    $task = $conn->real_escape_string($task);
     $sql = "INSERT INTO tasks (task) VALUES ('$task')";
     $conn->query($sql);
 }
